@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Tic_Tac_Toe.Core;
+
+namespace Tic_Tac_Toe.Players
+{
+    public interface IPlayerStrategy
+    {
+        public Position MakeMove(Board board);
+
+    }
+}
