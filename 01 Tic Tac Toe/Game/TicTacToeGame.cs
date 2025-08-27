@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Tic_Tac_Toe.Core;
+﻿using Tic_Tac_Toe.Core;
 using Tic_Tac_Toe.Players;
 using Tic_Tac_Toe.States;
 
@@ -33,6 +28,7 @@ namespace Tic_Tac_Toe.Game
             {
                 board.PrintBoard();
                 Position move = currentPlayer.Strategy.MakeMove(board);
+                context.SetState(new OTurnState());
                 board.MakeMove(move, currentPlayer.Symbol);
                 bool hasWon = board.CheckWin(currentPlayer.Symbol);
                 if (hasWon || board.IsFull())

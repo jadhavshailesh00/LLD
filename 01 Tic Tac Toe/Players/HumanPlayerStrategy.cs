@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Tic_Tac_Toe.Core;
+﻿using Tic_Tac_Toe.Core;
 
 namespace Tic_Tac_Toe.Players
 {
@@ -21,7 +16,7 @@ namespace Tic_Tac_Toe.Players
             while (true)
             {
                 Console.WriteLine($"{PlayerName}, enter your move (row and column separated by space): ");
-                string input = Console.ReadLine();
+                string? input = Console.ReadLine();
                 if (string.IsNullOrWhiteSpace(input)) continue;
 
                 var parts = input.Split(' ');

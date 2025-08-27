@@ -1,5 +1,4 @@
-﻿using Tic_Tac_Toe;
-using Tic_Tac_Toe.Game;
+﻿using Tic_Tac_Toe.Game;
 using Tic_Tac_Toe.Players;
 
 var playerXStrategy = new HumanPlayerStrategy("Player X");
