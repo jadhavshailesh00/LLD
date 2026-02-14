@@ -1,4 +1,4 @@
-﻿namespace Tic_Tac_Toe.Core
+﻿namespace LLD.Example._01_Tic_Tac_Toe
 {
     public class Board
     {

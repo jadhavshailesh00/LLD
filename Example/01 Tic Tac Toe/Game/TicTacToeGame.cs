@@ -1,8 +1,4 @@
-﻿using Tic_Tac_Toe.Core;
-using Tic_Tac_Toe.Players;
-using Tic_Tac_Toe.States;
-
-namespace Tic_Tac_Toe.Game
+﻿namespace LLD.Example._01_Tic_Tac_Toe
 {
     public class TicTacToeGame
     {

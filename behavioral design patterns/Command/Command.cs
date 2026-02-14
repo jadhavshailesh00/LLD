@@ -1,12 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LLD.behavioral_design_patterns.Command
+﻿namespace LLD.behavioral_design_patterns.Command
 {
-    internal class Command
+    public class Command
     {
+        public static void Run()
+        {
+            var light = new Light();
+
+            var turnOn = new TurnOnCommand(light);
+            var turnOff = new TurnOffCommand(light);
+
+            var remote = new RemoteControl();
+
+            remote.SetCommand(turnOn);
+            remote.PressButton();
+            remote.PressUndo();
+
+        }
     }
 }

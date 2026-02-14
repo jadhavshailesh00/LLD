@@ -1,6 +1,4 @@
-﻿using Tic_Tac_Toe.Core;
-
-namespace Tic_Tac_Toe.Players
+﻿namespace LLD.Example._01_Tic_Tac_Toe
 {
     internal class HumanPlayerStrategy : IPlayerStrategy
     {

@@ -8,13 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Example\01 Tic Tac Toe\Extensions\**" />
-    <EmbeddedResource Remove="Example\01 Tic Tac Toe\Extensions\**" />
-    <None Remove="Example\01 Tic Tac Toe\Extensions\**" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Folder Include="Creational design patterns\" />
+    <Folder Include="Example\01 Tic Tac Toe\Extensions\" />
   </ItemGroup>
 
 </Project>
