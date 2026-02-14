@@ -15,7 +15,6 @@
 
   <ItemGroup>
     <Folder Include="Creational design patterns\" />
-    <Folder Include="structural design patterns\" />
   </ItemGroup>
 
 </Project>

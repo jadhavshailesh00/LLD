@@ -8,7 +8,6 @@ namespace LLD.behavioral_design_patterns.Strategy
 {
     public class Payment
     {
-
         public void Run()
         {
             PaymentContext payContext = new PaymentContext();

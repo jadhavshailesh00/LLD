@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace LLD.behavioral_design_patterns.Visitor
+{
+    public class AreaVisitor : IShapeVisitor
+    {
+        public void Visit(Circle circle)
+        {
+            Console.WriteLine($"Circle Area: {Math.PI * circle.Radius * circle.Radius}");
+        }
+
+        public void Visit(Rectangle rectangle)
+        {
+            Console.WriteLine($"Rectangle Area: {rectangle.Width * rectangle.Height}");
+        }
+    }
+}
