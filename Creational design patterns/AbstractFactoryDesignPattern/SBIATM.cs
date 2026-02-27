@@ -1,4 +1,4 @@
-﻿namespace MyDSARepository.DesignPattern.CreationalDesignPattern.AbstractFactoryDesignPattern
+﻿namespace LLD.CreationalDesignPattern.AbstractFactoryDesignPattern
 {
     internal class SBIATM : ICard
     {

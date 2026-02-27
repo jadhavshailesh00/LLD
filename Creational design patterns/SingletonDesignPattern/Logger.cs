@@ -1,4 +1,4 @@
-﻿namespace MyDSARepository.DesignPattern.CreationalDesignPattern.SingletonDesignPattern
+﻿namespace LLD.CreationalDesignPattern.SingletonDesignPattern
 {
     internal class Logger
     {

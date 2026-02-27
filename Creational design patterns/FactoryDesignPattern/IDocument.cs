@@ -1,4 +1,4 @@
-﻿namespace MyDSARepository.DesignPattern.CreationalDesignPattern.FactoryDesignPattern
+﻿namespace LLD.CreationalDesignPattern.FactoryDesignPattern
 {
     internal interface IDocument
     {

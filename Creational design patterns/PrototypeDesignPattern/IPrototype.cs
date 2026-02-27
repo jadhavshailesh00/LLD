@@ -1,4 +1,4 @@
-﻿namespace MyDSARepository.DesignPattern.CreationalDesignPattern.PrototypeDesignPattern
+﻿namespace LLD.CreationalDesignPattern.PrototypeDesignPattern
 {
     public interface IPrototype<T>
     {

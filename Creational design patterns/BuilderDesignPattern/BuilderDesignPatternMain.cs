@@ -1,4 +1,4 @@
-﻿namespace MyDSARepository.DesignPattern.CreationalDesignPattern.BuilderDesignPattern
+﻿namespace LLD.CreationalDesignPattern.BuilderDesignPattern
 {
     internal class BuilderDesignPatternMain
     {

@@ -1,11 +1,11 @@
-﻿using MyDSARepository.DesignPattern.CreationalDesignPattern.BuilderDesignPattern;
-using MyDSARepository.DesignPattern.CreationalDesignPattern.FactoryDesignPattern;
-using MyDSARepository.DesignPattern.CreationalDesignPattern.PrototypeDesignPattern;
-using MyDSARepository.DesignPattern.CreationalDesignPattern.SingletonDesignPattern;
+﻿using LLD.CreationalDesignPattern.BuilderDesignPattern;
+using LLD.CreationalDesignPattern.FactoryDesignPattern;
+using LLD.CreationalDesignPattern.PrototypeDesignPattern;
+using LLD.CreationalDesignPattern.SingletonDesignPattern;
 
-namespace MyDSARepository.DesignPattern.CreationalDesignPattern
+namespace LLD.CreationalDesignPattern
 {
-    internal class CreationDesignPatternMain : IRunnable
+    internal class CreationDesignPatternMain
     {
 
         private static void FactoryDesignPatternExample()
@@ -27,9 +27,9 @@ namespace MyDSARepository.DesignPattern.CreationalDesignPattern
         {
             Console.WriteLine("This is AbtractFactory Design Pattern SBI example");
             var SBIObj = AbstractFactoryDesignPattern.AbstractFactoryDesignPattern.CreateFactory("SBI");
-           var cc= SBIObj.CreateCCCard();
+            var cc = SBIObj.CreateCCCard();
             cc.SwapCard();
-            var atm=SBIObj.CreateATMCard();
+            var atm = SBIObj.CreateATMCard();
             atm.SwapCard();
         }
 
